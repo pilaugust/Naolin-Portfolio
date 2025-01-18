@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSFW Renders</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="age-verification-modal" class="modal">
+        <div class="modal-content">
+            <h2>Age Verification</h2>
+            <p>To access this content, you must be 18 years or older.</p>
+            <form id="age-verification-form">
+                <label for="birthdate">Enter your birthdate:</label>
+                <input type="date" id="birthdate" required>
+                <br><br>
+                <label for="terms">
+                    <input type="checkbox" id="terms" required>
+                    By proceeding, I confirm that I am 18 years of age or older and acknowledge that I am voluntarily choosing to view content intended for adults. I understand that the creator is not responsible for any unauthorized access to this material by individuals under the age of 18.                </label>
+                <br><br>
+                <button type="submit" class="submitBtn">SUBMIT</button>
+            </form>
+            <p id="error-message" style="color: red; display: none;">You must be 18 or older to access this content.</p>
+        </div>
+        <a href="index.html" class="returnHome">Return to front page</a>
+
+    </div>
+
+    <div id="main-content" style="display: none;"> <!-- Hidden initially -->
+        <div class="headerBackground">
+            <img src="./images/header.png" alt="" class="headerImg">
+        </div>
+        <div class="opacity"></div>
+        <div class="intro">
+            <div class="homeBtn">
+                <a href="index.html">
+                <img src="./images/soMeIcons/home.png" alt="" class="homeImg" href="index.html"></a>
+            </div>
+            <div class="headerSmall">
+                <img src="./images/pfp.jpg" alt="" class="pfpSmall">
+                <h1 class="headerTitleSmall">NAOLIN DAVIS</h1>
+            </div>
+            <div class="mainContent">
+        </div>
+    </div>
+</body>
+</html>
